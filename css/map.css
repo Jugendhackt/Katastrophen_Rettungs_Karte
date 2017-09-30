@@ -1,21 +1,87 @@
-
-#help {
-    height: 600px;
-    width: 250px;
+#Titel {
+    height: 20px;
+    width: 200px;
     float: left;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #0078A8 ;
 }
 
+/*#Help {*/
+    /*height: 600px;*/
+    /*width: 250px;*/
+    /*float: left;*/
+    /*margin-bottom: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*!*margin-top: 10px;*!*/
+    /*background-color: #222222 ;*/
+/*}*/
 
+#need_help {
+    height: 285px;
+    width: 230px;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: chartreuse ;
+}
 
-#mapid {
+#Mapid {
         height: 600px;
         width: 1000px;
         float: left;
-        }
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /*background-color: ;*/
+}
 
+/*#Filter {*/
+    /*height: 600px;*/
+    /*width: 250px;*/
+    /*float: left;*/
+    /*margin-bottom: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*margin-top: 10px;*/
+    /*background-color: #222222 ;*/
+/*}*/
 
 #filter {
     height: 600px;
     width: 250px;
     float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: chartreuse ;
+}
+
+#give_help {
+    height: 285px;
+    width: 230px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: chartreuse ;
+}
+
+#Boden {
+    height: 280px;
+    width: 230px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #0078A8 ;
 }
