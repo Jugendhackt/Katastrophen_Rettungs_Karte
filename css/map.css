@@ -1,12 +1,14 @@
-#Titel {
-    height: 20px;
-    width: 200px;
+.titel {
+    height: 35px;
+    width: 1600px;
     float: left;
-    margin-bottom: 10px;
-    margin-left: 700px;
+    /*margin-bottom: 10px;*/
+    /*margin-left: 700px;*/
     margin-right: 10px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     background-color: #0078A8 ;
+    font-size: 28px;
+    font-family: "Arial Black";
 }
 
 /*#Help {*/
@@ -21,25 +23,25 @@
 /*}*/
 
 #need_help {
-    height: 285px;
+    height: 295px;
     width: 230px;
-    float: left;
+    /*float: left;*/
     margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     background-color: chartreuse ;
 }
 
-#Mapid {
+#mapid {
         height: 600px;
         width: 1000px;
         float: left;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    /*background-color: ;*/
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        /*background-color: ;*/
 }
 
 /*#Filter {*/
@@ -54,10 +56,10 @@
 /*}*/
 
 #filter {
-    height: 600px;
+    height: 445px;
     width: 250px;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -65,8 +67,18 @@
 }
 
 #give_help {
-    height: 285px;
+    height: 295px;
     width: 230px;
+    /*float: left;*/
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: chartreuse ;
+}
+#wetter {
+    height: 155px;
+    width: 250px;
     float: left;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -75,13 +87,14 @@
     background-color: chartreuse ;
 }
 
-#Boden {
-    height: 280px;
-    width: 230px;
+.boden {
+    height: 35px;
+    width: 1600px;
     float: left;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*margin-top: 10px;*/
     background-color: #0078A8 ;
+    font-size: 25px;
 }
