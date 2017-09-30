@@ -1,12 +1,14 @@
 var mymap;
 var baseLayers;
 var Overlays;
+var lat;
+var lon;
 navigator.geolocation.getCurrentPosition(function(location) {
 
     console.log(location.coords.latitude);
-
+    lat = location.coords.latitude;
     console.log(location.coords.longitude);
-
+    lon = location.coords.longitude;
     console.log(location.coords.accuracy);
 
 
@@ -42,4 +44,9 @@ navigator.geolocation.getCurrentPosition(function(location) {
 
     mymap.on('click', onMapClick);
 
+});
+
+$("#helpMarker").click(function(e){
+    e.preventDefault();
+    var marker1 = L.marker([lat, lon]).addTo(mymap);
 });
