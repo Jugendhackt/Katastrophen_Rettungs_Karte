@@ -14,7 +14,7 @@
 
 #left {
     height: 600px;
-    width: 250px;
+    width: 20vw;
     float: left;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -23,20 +23,9 @@
     /*background-color: #222222 ;*/
 }
 
-#right {
-    height: 600px;
-    width: 250px;
-    float: right;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 10px;
-    /*background-color: #222222 ;*/
-}
-
 #need_help {
-    height: 295px;
-    width: 230px;
+    height: 290px;
+    width: 19vw;
     /*float: left;*/
     margin-bottom: 5px;
     margin-left: 10px;
@@ -46,8 +35,8 @@
 }
 
 #give_help {
-    height: 295px;
-    width: 230px;
+    height: 290px;
+    width: 19vw;
     /*float: left;*/
     margin-bottom: 10px;
     margin-left: 10px;
@@ -58,35 +47,13 @@
 
 #mapid {
         height: 600px;
-        width: 1000px;
+        width: 75vw;
         float: left;
         margin-bottom: 10px;
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 10px;
         /*background-color: ;*/
-}
-
-#filter {
-    height: 295px;
-    width: 230px;
-    float: left;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    background-color: chartreuse ;
-}
-
-#wetter {
-    height: 295px;
-    width: 230px;
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    background-color: chartreuse ;
 }
 
 .boden {
