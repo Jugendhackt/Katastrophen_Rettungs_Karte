@@ -1,7 +1,7 @@
 
 .titel {
     height: 35px;
-    width: 1600px;
+    width: 100vw;
     float: left;
     /*margin-bottom: 10px;*/
     /*margin-left: 700px;*/
@@ -29,10 +29,10 @@
     height: 290px;
     width: 19vw;
     /*float: left;*/
-    margin-bottom: 5px;
+    margin-bottom: 18px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     background-image: url(../img/__berschwemung_360.jpg);
     text-align: center;
 }
@@ -48,7 +48,7 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 18px;
     background-image:url(../img/Feuerwehr2_480.jpg);
     text-align: center;
     color: red;
@@ -75,7 +75,7 @@
 
 .boden {
     height: 35px;
-    width: 1600px;
+    width: 100vw;
     float: left;
     /*margin-bottom: 10px;*/
     /*margin-left: 10px;*/
