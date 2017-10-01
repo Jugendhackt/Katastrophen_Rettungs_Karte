@@ -92,7 +92,7 @@ $("#helpMarker").click(function(e) {
         e.preventDefault();
 
         var AssemblypointMarker = L.icon({
-            iconUrl: 'img/Fahne.png',
+            iconUrl: 'img/FAHNEATTEMPT2.png',
             iconSize: [48, 48], // size of the icon
         });
 

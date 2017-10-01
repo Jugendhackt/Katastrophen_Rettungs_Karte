@@ -69,6 +69,10 @@
         /*background-color: ;*/
 }
 
+.boden a {
+    color: white;
+}
+
 .boden {
     height: 35px;
     width: 1600px;
