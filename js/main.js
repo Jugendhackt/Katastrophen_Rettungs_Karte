@@ -46,7 +46,67 @@ navigator.geolocation.getCurrentPosition(function(location) {
 
 });
 
-$("#helpMarker").click(function(e){
+$("#helpMarker").click(function(e) {
     e.preventDefault();
-    var marker1 = L.marker([lat, lon]).addTo(mymap);
+
+    var needHelpMarker = L.icon({
+        iconUrl: 'img/003-location.png',
+        iconSize: [32, 32], // size of the icon
+    });
+    L.marker([lat, lon],{icon: needHelpMarker}).addTo(mymap);
 });
+    $("#mayHelp").click(function (e) {
+        e.preventDefault();
+
+        var mayHelpMarker = L.icon({
+            iconUrl: 'img/002-location-1.png',
+            iconSize: [32, 32], // size of the icon
+        });
+
+        L.marker([lat, lon],{icon: mayHelpMarker}).addTo(mymap);
+    });
+
+    $("#Medic").click(function (e) {
+        e.preventDefault();
+
+        var MedicMarker = L.icon({
+            iconUrl: 'img/medicicon.png',
+            iconSize: [32, 32], // size of the icon
+        });
+
+        L.marker([lat, lon],{icon: MedicMarker, draggable: true}).addTo(mymap);
+    });
+
+    $("#Equipment").click(function (e) {
+        e.preventDefault();
+
+        var EquipmentMarker = L.icon({
+            iconUrl: 'img/schraubschlüss.png',
+            iconSize: [32, 32], // size of the icon
+        });
+
+        L.marker([lat, lon],{icon: EquipmentMarker, draggable: true}).addTo(mymap);
+    });
+
+    $("#Assemblypoint").click(function (e) {
+        e.preventDefault();
+
+        var AssemblypointMarker = L.icon({
+            iconUrl: 'img/Fahne.png',
+            iconSize: [48, 48], // size of the icon
+        });
+
+        L.marker([lat, lon],{icon: AssemblypointMarker, draggable: true}).addTo(mymap);
+    });
+
+    $("#Food").click(function (e) {
+        e.preventDefault();
+
+        var FoodMarker = L.icon({
+            iconUrl: 'img/dinner.png',
+            iconSize: [32, 32], // size of the icon
+        });
+
+        L.marker([lat, lon],{icon: FoodMarker, draggable: true}).addTo(mymap);
+    });
+
